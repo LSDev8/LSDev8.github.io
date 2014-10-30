@@ -1,1 +1,172 @@
-HELLO WORLD
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>LSDev8</title>
+    <meta name="description" content="Organization of IT Student Project" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="LSDev8" />
+
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/themes/LSDev8/default.css" />
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+  <body class="section1-visible">   
+    <header class="headermobile mobile col-12">
+      <button id="releaseMenu" ></button>
+      <h1>LSDev8</h1>
+      
+      <nav class="menu menumobile">
+	<a class="target-section1 current" href="#section1">Home</a>
+	<a class="target-section2" href="#section2">About</a>
+	<a class="target-section3" href="#section3">Project</a>
+	<a class="target-section4" href="#section4">The team</a>
+	<a class="target-section5" href="#section5">Contact</a>
+      </nav>
+    </header>
+    
+    <div id="container" class="col-12">
+      <header class="headerstandard">
+	<div class="headerstandard-inner">
+	  <h1>LSDev8</h1>
+	  <nav class="menu menustandard">
+	    <a class="target-section1 current" href="#section1">Home</a>
+	    <a class="target-section2" href="#section2">About</a>
+	    <a class="target-section3" href="#section3">Project</a>
+	    <a class="target-section4" href="#section4">The team</a>
+	    <a class="target-section5" href="#section5">Contact</a>
+	  </nav>
+	</div>
+      </header>
+      
+      <div class="main" id="main">
+	<section id="section1" class="home col-7">
+	  <h1>We make Students Projects and we do it well</h1>
+	</section>
+	
+	<section id="section2" class="about">
+	  <h1>About us<h2>
+	      <h2>Because we are what we are</h2>
+	      <hr/>
+	      <p>
+		Praesent a arcu sollicitudin erat auctor euismod ac bibendum arcu. Nam ut volutpat lectus, et convallis sem. Aliquam sit amet vehicula nisi, vel dapibus sem. Nam in arcu cursus, condimentum diam ac, pulvinar metus. Cras hendrerit tellus ut risus laoreet, ut facilisis dolor tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec urna leo, ultrices sit amet libero non, ullamcorper ultricies felis. 
+	      </p>
+	      
+		<h3>Our missions</h3>
+		<p>Nam ut volutpat lectus, et convallis sem. Aliquam sit amet vehicula nisi, vel dapibus sem.</p>
+		<p class="quote">Praesent a arcu sollicitudin erat auctor euismod ac bibendum arcu, ras hendrerit tellus ut risus laoreet, ut facilisis dolor tincidunt.</p>
+	</section>
+	
+	<section id="section3" class="portfolio">
+	  <h1>Project<h2>
+	      <h2>And we do what we do</h2>
+	      <hr />
+	</section>
+
+
+	<section id="section4" class="team">
+	  <h1>The team<h2>
+	      <h2>We are them</h2>
+	      <hr />
+	      <ul id="team">
+		<li>
+		  <figure>
+		    <figcaption class="member">
+		      <span class="name">John Doe</span>
+		      <span class="role">Project manager</span>
+		    </figcaption>
+		  </figure>
+		</li>
+		<li>
+		  <figure>
+		    <figcaption class="member">
+		      <span class="name">Mariah Morgan</span>
+		      <span class="role">Designer</span>
+		    </figcaption>
+		  </figure>
+		</li>
+		<li>
+		  <figure>
+		    <figcaption class="member">
+		      <span class="name">Leeroy Jenkins</span>
+		      <span class="role">Web Developper</span>
+		    </figcaption>
+		  </figure>
+		</li>
+	      </ul>
+	</section>
+
+	<section id="section5" class="contact">
+	  <h1>Contact us<h2>
+	      <h2>We are there</h2>
+	      <hr />
+	      
+	      <h3>Get in touch, we can be friends</h3>
+		<br />
+		<form id="contact-form" action="/" method="post">
+		  <div>
+		    <label>
+		      <span>Could you tell us your name? (required)</span>
+		      <input placeholder="Please enter your name" type="text" tabindex="1" required>
+		    </label>
+		  </div>
+		  <div>
+		    <label>
+		      <span>And by the way, your email? (required)</span>
+		      <input placeholder="Please enter your email address" type="email" tabindex="2" required>
+		    </label>
+		  </div>
+		  <div>
+		    <label>
+		      <span>No pressure, but what is your phone number?</span>
+		      <input placeholder="Please enter your number" type="tel" tabindex="3">
+		    </label>
+		  </div>
+		  <div>
+		    <label>
+		      <span>Do you have a website?</span>
+		      <input placeholder="Begin with http://" type="url" tabindex="4">
+		    </label>
+		  </div>
+		  <div>
+		    <label>
+		      <span>And what can we do for you? (required)</span>
+		      <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+		    </label>
+		  </div>
+		  <div>
+		    <button name="submit" type="submit" id="contact-submit">Send Email</button>
+		  </div>
+		</form>
+	</section>
+      </div>
+      <nav class="menu">
+	<a title="" href="#section1">
+	  <div class="scroll"></div>
+	</a>
+      </nav>
+
+    </div>
+
+    <!-- Jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+    <script src="js/classie.js"></script>
+
+    <!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
+    <script src="js/jquery.debouncedresize.js"></script>
+    <!-- Isotope : Filtering http://isotope.metafizzy.co/demos/filtering.html -->
+    <script src="js/jquery.isotope.min.js"></script>
+    <!-- MagnificPopup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+    <!-- Gestion générale -->
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
